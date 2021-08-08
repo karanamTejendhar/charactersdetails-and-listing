@@ -116,7 +116,7 @@ const submitHandler=(e)=>{
           submitHandler(e)}
       >
         <div className="eachlabel">
-          <label>Name : </label>
+          <label>Name</label>
           <div  className = "error-input">
           <input
             type="text"
@@ -132,7 +132,7 @@ const submitHandler=(e)=>{
         
         
         <div className="eachlabel">
-          <label>Photo url : </label>
+          <label>Photo url</label>
           <div className = "error-input">
           <input
             type="input"
@@ -146,7 +146,7 @@ const submitHandler=(e)=>{
         </div>
 
         <div className="eachlabel">
-          <label>Gender : </label>
+          <label>Gender</label>
           <select onChange={(e) => setGender(e.target.value)}>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
@@ -155,7 +155,7 @@ const submitHandler=(e)=>{
         </div>
 
         <div className="eachlabel">
-          <label>Location : </label>
+          <label>Location</label>
           <div  className = "error-input">
           <input
             type="text"
@@ -172,7 +172,7 @@ const submitHandler=(e)=>{
         
 
         <div className="eachlabel">
-          <label>Species : </label>
+          <label>Species</label>
           <select onChange={(e) => setSpecies(e.target.value)}>
             <option value="Human">Human</option>
             <option value="Alien">Alien</option>
@@ -181,7 +181,7 @@ const submitHandler=(e)=>{
         </div>
 
         <div className="eachlabel">
-          <label>Status : </label>
+          <label>Status</label>
           <select onChange={(e) => setStatus(e.target.value)}>
             <option value="Alive">Alive</option>
             <option value="Dead">Dead</option>
@@ -190,12 +190,14 @@ const submitHandler=(e)=>{
         </div>
 
         <div className="eachlabel">
-          <label>Number of episodes character involved : </label>
+          <label>Number of episodes character involved</label>
+          <div  className = "error-input">
           <input
             type="number"
             value={episodeNum}
             onChange={(e) => setepisodeNum(e.target.value)}
           />
+          </div>
         </div>
 
         <div className={"addcharbutton"}>

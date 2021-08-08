@@ -110,6 +110,8 @@ const HomePage = (props) => {
               })}
             <ReactPaginate
               pageCount={finallist.length / perpage}
+              previousLabel={<p>&lt;</p>}
+              nextLabel	={<p>&gt;</p>}
               pageRangeDisplayed={2}
               marginPagesDisplayed={1}
               initialPage={0}

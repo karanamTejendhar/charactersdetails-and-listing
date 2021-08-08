@@ -1,6 +1,6 @@
 .popup{
     position: fixed;
-    top: 85%;
+    top: 70%;
     left: 60% ;
     width: 60%;
     height: 0vh;
@@ -15,7 +15,7 @@
     background-color:rgb(41, 39, 39);
     position: relative;
     padding: 14px;
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     display: flex;
     border-radius: 10px;

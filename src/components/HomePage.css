@@ -35,7 +35,7 @@ nav .rightnav a{
 
 padding: 10px;
 color:lightblue;    
-
+text-decoration: none;
 }
 
 nav .rightnav button{
@@ -48,6 +48,7 @@ border-radius: 10px;
 font-size: 20px ;
 border: none;
 text-align: center;
+
 }
 
 .Namebar{
@@ -199,9 +200,16 @@ color: white;
 list-style: none;
 padding:10px;
 justify-content: space-between;
+align-items: center;
 border-radius: 10px;
+overflow: hidden;
 }
-
+.pagination p{
+  display: flex;
+  color: pink;
+  margin-top: 10px;
+  padding: 1px;
+}
 .pagination .selected a{
 background-color: skyblue;
 padding: 2px;
@@ -209,7 +217,7 @@ text-decoration:none;
 }
 
 .pagination li{
-  padding: 6px;
+  padding: 1px;
 }
 .HomePage .listbox{
 display: flex;
